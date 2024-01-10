@@ -1,0 +1,22 @@
+:root{
+    --color: #e3cee4;
+    --primary: var(--color);
+}
+body{
+    background-color: var(--primary);
+}
+
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Manrope', sans-serif;
+    transition: all .5s;
+}
