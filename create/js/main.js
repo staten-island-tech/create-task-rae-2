@@ -1,6 +1,6 @@
 import { images } from "./array";
 
-let newArr = []
+let newArr = [];
 
 
 
