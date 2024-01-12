@@ -13,7 +13,7 @@ const images =[
 ];
 
 const DOMSelectors = {
-  results: document.querySelector(".results"),
+  results: document.querySelector("#horhorhorhor"),
 }
 
 let newArr = [];

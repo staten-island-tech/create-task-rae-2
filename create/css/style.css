@@ -20,3 +20,11 @@ body,
     font-family: 'Manrope', sans-serif;
     transition: all .5s;
 }
+
+#horhorhorhor{
+    margin-top: 10px;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Manrope', sans-serif;
+}
