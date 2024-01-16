@@ -34,9 +34,45 @@ const outcomes = [
         description4: "why would you invite an APPLE to go APPLE PICKING?! APPLe air fried you and scattered your ashes under the apple tree!",
     },
     {
-        title5: "Congratulations! You've collected ENDING 4.",
+        title5: "Congratulations! You've collected ENDING 5.",
         image5: "https://www.snexplores.org/wp-content/uploads/2020/04/1030_LL_trees-1028x579.png",
         description5: "AliEn T already picked all the apples... Should've been faster.",
     },
-]
+    {
+        title6: "Congratulations! You've collected ENDING 6.",
+        image6: "https://media.istockphoto.com/id/172291313/photo/wood-basket-with-red-apples.jpg?s=612x612&w=0&k=20&c=bHUB-o8_0jCWANf-pwGOp92sIh9Ffu6xYq_wOLgmYzI=",
+        description6: "An An Lee made it into a competition! You lost lol...",
+    },
+    {
+        title7: "Congratulations! You've collected ENDING 7.",
+        image7: "https://cdn.shopify.com/s/files/1/0582/8277/0569/files/teddy-bear-party.png?v=1677243478",
+        description7: "Baby Blue wanted to host a tea party instead.",
+    },
+    {
+        title8: "Congratulations! You've collected ENDING 8.",
+        image8: "https://s7.orientaltrading.com/is/image/OrientalTrading/17_1808?$PDP_VIEWER_IMAGE$",
+        description8: "Balloon Party ignored you! Pop her balloons or something."
+    },
+    {
+        title9: "Congratulations! You've collected ENDING 9.",
+        image9: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg",
+        description9: "Bette... disappeared.",
+    },
+    {
+        title0: "Congratulations! You've collected ENDING 10.",
+        image0: "https://media.tenor.com/Oas_7V6NajEAAAAM/laugh-point.gif",
+        description0: "You couldn't even pronounce Bkornblume's name. She got upset and left hahahhaha!!",
+    },
+    {
+        title11: "SECRET ENDING 1",
+        image11: "https://www.escapistmagazine.com/wp-content/uploads/2021/03/youdied.jpg?fit=1428%2C744",
+        description11: "You popped Ballon Party's balloons! Oh... What's that black goo on you?",
+    },
+    {
+        title12: "SECRET ENDING 2",
+        image12: "https://i.pinimg.com/originals/18/cb/36/18cb364302a4841d6a7c246c3c0f0860.jpg",
+        description12: "Baby Blue's tea party was enjoyable."
+    },
+];
 export { images }
+export { outcomes }

@@ -1,4 +1,5 @@
 import { images } from "./array";
+import { outcomes } from "./array";
 
 const outcomes = {
 
@@ -8,6 +9,11 @@ const DOMSelectors = {
 }
 
 let newArr = [];
+
+//create functions
+//show endings WITHOUT the secret endings
+//if an ending has been reached, don't do anything. 
+//if an ending has been reached, two separate secret endings will trigger
 
 
 //inserts the ending:
