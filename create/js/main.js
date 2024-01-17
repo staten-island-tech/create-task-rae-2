@@ -11,6 +11,8 @@ const DOMSelectors = {
 let newArr = [];
 
 //create functions
+function show();
+
 //show endings WITHOUT the secret endings
 //if an ending has been reached, don't do anything. 
 //if an ending has been reached, two separate secret endings will trigger
