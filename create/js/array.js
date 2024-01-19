@@ -21,7 +21,7 @@ const outcomes = [
     {
         title2: "Congratulations! You've collected ENDING 2.",
         image2: "https://media.tenor.com/Oas_7V6NajEAAAAM/laugh-point.gif",
-        description2: "37 was NOT interested in you. Go away lol",
+        description2: "37 was NOT interested in you. Go away (lol)",
     },
     {
         title3: "Congratulations! You've collected ENDING 3.",
@@ -41,7 +41,7 @@ const outcomes = [
     {
         title6: "Congratulations! You've collected ENDING 6.",
         image6: "https://media.istockphoto.com/id/172291313/photo/wood-basket-with-red-apples.jpg?s=612x612&w=0&k=20&c=bHUB-o8_0jCWANf-pwGOp92sIh9Ffu6xYq_wOLgmYzI=",
-        description6: "An An Lee made it into a competition! You lost lol...",
+        description6: "An An Lee made it into a competition! You lost...",
     },
     {
         title7: "Congratulations! You've collected ENDING 7.",
@@ -61,7 +61,7 @@ const outcomes = [
     {
         title0: "Congratulations! You've collected ENDING 10.",
         image0: "https://media.tenor.com/Oas_7V6NajEAAAAM/laugh-point.gif",
-        description0: "You couldn't even pronounce Bkornblume's name. She got upset and left hahahhaha!!",
+        description0: "You couldn't even pronounce Bkornblume's name. She got upset and left!!",
     },
     {
         title11: "SECRET ENDING 1",

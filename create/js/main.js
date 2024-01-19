@@ -12,6 +12,7 @@ let newArr = [];
 
 //create functions
 function show();
+show();
 
 //show endings WITHOUT the secret endings
 //if an ending has been reached, don't do anything. 
