@@ -113,5 +113,5 @@ const outcomes = [
         description12: "Baby Blue's tea party was enjoyable."
     },
 ];
-export { images }
+export { cards }
 export { outcomes }

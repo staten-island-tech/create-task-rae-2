@@ -1,4 +1,4 @@
-import { images } from "./array";
+import { cards } from "./array";
 import { outcomes } from "./array";
 
 const outcomes = {
@@ -7,6 +7,8 @@ const outcomes = {
 const DOMSelectors = {
   results: document.querySelector("#horhorhorhor"),
   cardList: document.querySelector(".cardList"),
+  outcomes: document.querySelector(".outcomes"),
+  cards: document.querySelector("cards"),
 }
 
 let newArr = [];
@@ -25,7 +27,7 @@ DOMSelectors.cardList.innerHTML = "";
     newObject.classList.add("card")
     DOMSelectors.cardList.appendChild(newObject)
   });
-show();
+show(cards);
 
 //show endings WITHOUT the secret endings
 //if an ending has been reached, don't do anything. 
