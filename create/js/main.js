@@ -6,12 +6,25 @@ const outcomes = {
 }
 const DOMSelectors = {
   results: document.querySelector("#horhorhorhor"),
+  cardList: document.querySelector(".cardList"),
 }
 
 let newArr = [];
 
 //create functions
-function show();
+function show(characters);
+DOMSelectors.cardList.innerHTML = "";
+    characters.forEach((character)=> {
+    const newObject = document.createElement("div");
+    newObject.innerHTML = 
+    `
+    <h2 class="char-name">${character.name}</h2>
+    <img src="${character.pic}" alt="picture" class="char-pic">
+    <h3 class="char-desc">${character.description}</h3>
+    `
+    newObject.classList.add("card")
+    DOMSelectors.cardList.appendChild(newObject)
+  });
 show();
 
 //show endings WITHOUT the secret endings
