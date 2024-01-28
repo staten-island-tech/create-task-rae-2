@@ -14,9 +14,9 @@ const DOMSelectors = {
 let newArr = [];
 
 //create functions
-function show(characters);
+function show(arr){
 DOMSelectors.cardList.innerHTML = "";
-    characters.forEach((character)=> {
+    arr.forEach((character)=> {
     const newObject = document.createElement("div");
     newObject.innerHTML = 
     `
@@ -26,8 +26,11 @@ DOMSelectors.cardList.innerHTML = "";
     `
     newObject.classList.add("card")
     DOMSelectors.cardList.appendChild(newObject)
-  });
+  })};
+  
 show(cards);
+
+
 
 //show endings WITHOUT the secret endings
 //if an ending has been reached, don't do anything. 
