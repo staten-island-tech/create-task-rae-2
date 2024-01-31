@@ -1,9 +1,6 @@
 import { cards } from "./array";
 import { outcomes } from "./array";
 
-const outcomes = {
-
-}
 const DOMSelectors = {
   results: document.querySelector("#horhorhorhor"),
   cardList: document.querySelector(".cardList"),
@@ -14,22 +11,6 @@ const DOMSelectors = {
 let newArr = [];
 
 //create functions
-function show(arr){
-DOMSelectors.cardList.innerHTML = "";
-    arr.forEach((character)=> {
-    const newObject = document.createElement("div");
-    newObject.innerHTML = 
-    `
-    <h2 class="char-name">${character.name}</h2>
-    <img src="${character.pic}" alt="picture" class="char-pic">
-    <h3 class="char-desc">${character.description}</h3>
-    `
-    newObject.classList.add("card")
-    DOMSelectors.cardList.appendChild(newObject)
-  })};
-  
-show(cards);
-
 
 
 //show endings WITHOUT the secret endings
