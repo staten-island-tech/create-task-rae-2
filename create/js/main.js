@@ -1,18 +1,14 @@
 import { cards } from "./array";
-import { outcomes } from "./array";
+import { outcomes } from "./array2";
 
-const DOMSelectors = {
-  results: document.querySelector("#horhorhorhor"),
-  cardList: document.querySelector(".cardList"),
-  outcomes: document.querySelector(".outcomes"),
-  cards: document.querySelector("cards"),
-}
 
 let newArr = [];
 
 //create functions
-
-
+function makeCards(){
+//idk
+}
+makeCards(cards);
 //show endings WITHOUT the secret endings
 //if an ending has been reached, don't do anything. 
 //if an ending has been reached, two separate secret endings will trigger
