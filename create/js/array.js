@@ -1,53 +1,53 @@
 const cards =[
     {
         name: "Six",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/f/f1/6.png/revision/latest?cb=20231118210048",
+        pic: "https://www.prydwen.gg/static/05c2fdc5b17a6ec437c21b57bbca5ba7/3cd29/65_full.webp",
         description: "Go apple picking with Six?",
     },
     {
         name: "37",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/8/87/37.png/revision/latest/scale-to-width-down/286?cb=20231019203459",
+        pic: "https://www.prydwen.gg/static/4389e1262d7804f6fdb8920be1fcd89b/3cd29/64_full.webp",
         description: "Go apple picking with 37?",
     },
     {
         name: "A Knight",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/e/e1/A_Knight_Suitcase.png/revision/latest?cb=20231015180431",
+        pic: "https://www.prydwen.gg/static/23917698ee50c39ce4f056f87f477db2/3cd29/7_full.webp",
         description: "Go apple picking with A Knight?",
     },
     {
         name: "APPLe",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/f/fc/APPLe.png/revision/latest?cb=20231029183031",
+        pic: "https://www.prydwen.gg/static/b29310e67a7ec7d34248ea76c4958d7b/3cd29/30_full.webp",
         description: "Go apple picking with APPLe?",
     },
     {
-        name: "AliEn T",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/4/4f/AliEn_T.png/revision/latest/scale-to-width-down/350?cb=20231111141405",
-        description: "Go apple picking with AliEn T?",
+        name: "Lilya",
+        pic: "https://www.prydwen.gg/static/f75ae604fe66a1ad31786fbacb20c219/3cd29/4_full.webp",
+        description: "Go apple picking with Lilya?",
     },
     {
         name: "An An Lee",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/6/64/An-an_Lee.png/revision/latest?cb=20231020001311",
+        pic: "https://www.prydwen.gg/static/e7e861f02dea05e98c915de2e91191ba/3cd29/0_full.webp",
         description: "Go apple picking with An An Lee?",
     },
     {
         name: "Baby Blue",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/c/c6/Baby_Blue.png/revision/latest/scale-to-width-down/1000?cb=20231022043712",
+        pic: "https://www.prydwen.gg/static/6e45ad98f7c5bff5176ede4b1062269f/3cd29/14_full.webp",
         description: "Go apple picking with Baby Blue?",
     },
     {
-        name: "Balloon Party",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/b/bb/Balloon_Party_Chibi.png/revision/latest?cb=20231024175713",
-        description: "Go apple picking with Balloon Party?",
+        name: "Centurion",
+        pic: "https://www.prydwen.gg/static/6ceccd2ad47168bd903b41b162eb6ad9/3cd29/5_full.webp",
+        description: "Go apple picking with Centurion?",
     },
     {
-        name: "Bette",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/0/0d/Bette.png/revision/latest?cb=20231111164507",
-        description: "Go apple picking with Bette?",
+        name: "Jiu Niangzi",
+        pic: "https://www.prydwen.gg/static/343359b6e994f071dc8f2c83082f4418/3cd29/69_full.webp",
+        description: "Go apple picking with Jiu Niangzi?",
     },
     {
-        name: "Bkornblume",
-        pic: "https://static.wikia.nocookie.net/reverse1999/images/a/ac/Bkornblume.png/revision/latest/scale-to-width-down/333?cb=20231025015231",
-        description: "Go apple picking with Bkornblume?",
+        name: "Click",
+        pic: "https://www.prydwen.gg/static/620c08ecd767e7a337cb1b08a89406ee/3cd29/23_full.webp",
+        description: "Go apple picking with Click?",
     },
 ];
 

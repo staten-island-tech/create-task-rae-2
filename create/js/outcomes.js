@@ -22,7 +22,7 @@ const outcomes = [
     {
         title5: "Congratulations! You've collected ENDING 5.",
         image5: "https://www.snexplores.org/wp-content/uploads/2020/04/1030_LL_trees-1028x579.png",
-        description5: "AliEn T already picked all the apples... Should've been faster.",
+        description5: "Lilya already picked all the apples... Should've been faster.",
     },
     {
         title6: "Congratulations! You've collected ENDING 6.",
@@ -36,18 +36,18 @@ const outcomes = [
     },
     {
         title8: "Congratulations! You've collected ENDING 8.",
-        image8: "https://s7.orientaltrading.com/is/image/OrientalTrading/17_1808?$PDP_VIEWER_IMAGE$",
-        description8: "Balloon Party ignored you! Pop her balloons or something."
+        image8: "https://images.squarespace-cdn.com/content/v1/5c9446c7e8ba44e4b0095a98/1619576189665-1LSSZNE98QPJDB6Z2KGZ/Single+Ticket.jpg?format=2500w",
+        description8: "Centurion invited you to a show instead!"
     },
     {
         title9: "Congratulations! You've collected ENDING 9.",
-        image9: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg",
-        description9: "Bette... disappeared.",
+        image9: "https://cdn11.bigcommerce.com/s-zv6qljn20r/images/stencil/1280x1280/products/689/3932/560801646__92783.1608777939.jpg?c=2",
+        description9: "Jiu Niangzi... disappeared... to go drink?",
     },
     {
         title0: "Congratulations! You've collected ENDING 10.",
-        image0: "https://media.tenor.com/Oas_7V6NajEAAAAM/laugh-point.gif",
-        description0: "You couldn't even pronounce Bkornblume's name. She got upset and left!!",
+        image0: "https://collectiblend.com/Cameras/images/ICA-Minimum-Palmos-(10x15,-457).jpg",
+        description0: "Click took many pictures! It was a fun day.",
     },
 ];
 export { outcomes }
