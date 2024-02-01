@@ -49,15 +49,5 @@ const outcomes = [
         image0: "https://media.tenor.com/Oas_7V6NajEAAAAM/laugh-point.gif",
         description0: "You couldn't even pronounce Bkornblume's name. She got upset and left!!",
     },
-    {
-        title11: "SECRET ENDING 1",
-        image11: "https://www.escapistmagazine.com/wp-content/uploads/2021/03/youdied.jpg?fit=1428%2C744",
-        description11: "You popped Ballon Party's balloons! Oh... What's that black goo on you?",
-    },
-    {
-        title12: "SECRET ENDING 2",
-        image12: "https://i.pinimg.com/originals/18/cb/36/18cb364302a4841d6a7c246c3c0f0860.jpg",
-        description12: "Baby Blue's tea party was enjoyable."
-    },
 ];
 export { outcomes }

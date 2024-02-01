@@ -20,6 +20,28 @@ body,
     font-family: 'Manrope', sans-serif;
     transition: all .5s;
 }
+#btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.play{
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Manrope', sans-serif;
+    background-color: #5c974f;
+}
+
+.gallery{
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Manrope', sans-serif;
+    background-color: #5c974f;
+}
+
 .words{
     text-align: center;
     font-size: 1.5rem;
@@ -27,7 +49,7 @@ body,
     margin-top: 10px;
 }
 
-#horhorhorhor{
+#container{
     margin-top: 10px;
     flex-direction: row;
     text-align: center;
