@@ -1,4 +1,4 @@
-const outcomes = [
+const six = [
     {
         title: "Congratulations! You've collected ENDING 1.",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEWInkLjBMrX-4ehYMqS8OXO5ihvrBa-JoA&usqp=CAU",
@@ -50,4 +50,4 @@ const outcomes = [
         description0: "Click took many pictures! It was a fun day.",
     },
 ];
-export { outcomes }
+export { six }

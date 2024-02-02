@@ -1,5 +1,5 @@
 import { cards } from "./array";
-import { outcomes } from "./outcomes";
+import { six } from "./outcomes";
 import { DOMSelectors } from "./dom";
 
 let selected = [];
