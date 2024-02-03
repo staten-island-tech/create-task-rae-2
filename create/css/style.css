@@ -89,3 +89,15 @@ body,
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
 }
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-button {
+    padding: 5px 10px;
+    background-color: #bb7cb3;
+    font-family: 'Manrope', sans-serif;
+}

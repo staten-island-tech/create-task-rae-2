@@ -35,9 +35,9 @@ const cards =[
         description: "Go apple picking with Baby Blue?",
     },
     {
-        name: "Centurion",
-        pic: "https://www.prydwen.gg/static/6ceccd2ad47168bd903b41b162eb6ad9/3cd29/5_full.webp",
-        description: "Go apple picking with Centurion?",
+        name: "Getian",
+        pic: "https://www.prydwen.gg/static/1193320ba39d620acc502371f6fa41a2/3cd29/72_full.webp",
+        description: "Go apple picking with Getian?",
     },
     {
         name: "Jiu Niangzi",
