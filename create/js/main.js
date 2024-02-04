@@ -27,10 +27,8 @@ function charactercards() {
 }
 
 function yess() {
-  const thing = charoutcome(cards[now])
-  if (outcomes.length === 0) {
+  const thing = outcome(cards[now])
     outcomes.push(thing);
-  }
   now++;
   if (now < cards.length) {
       charactercards();
@@ -58,6 +56,7 @@ function characteroutcomes() {
       <h2 class="outcome-title">${outcome.title}</h2>
       <img src="${outcome.image}" alt="outcome image" class="outcome-img">
       <h3 class="outcome-description">${outcome.description}</h3>
+      <hr>
       `
       newObject.classList.add("outcome")
       DOMSelectors.cardList.appendChild(newObject);
@@ -65,6 +64,7 @@ function characteroutcomes() {
 }
 
 function outcome(character) {
+  console.log(character);
     switch (character.name) {
         case "Six":
             return six[0];
