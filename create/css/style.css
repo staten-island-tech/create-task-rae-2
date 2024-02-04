@@ -106,3 +106,8 @@ body,
     background-color: #bb7cb3;
     font-family: 'Manrope', sans-serif;
 }
+
+.outcome-img{
+    max-height: 70%;
+    max-width: 60%;
+}

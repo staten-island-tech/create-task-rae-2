@@ -63,62 +63,59 @@ function characteroutcomes() {
   });
 }
 
-function outcome(character) {
-  console.log(character);
-    switch (character.name) {
-        case "Six":
-            return six[0];
-        case "37":
-            return thirtyseven[0];
-        case "A Knight":
-            return aknight[0];
-        case "APPLe":
-            return apple[0];
-        case "Lilya":
-            return lilya[0];
-        case "An An Lee":
-            return ananlee[0];
-        case "Baby Blue":
-            return babyblue[0];
-        case "Getian":
-            return getian[0];
-        case "Jiu Niangzi":
-            return jiu[0];
-        case "Click":
-            return click[0];
-        default:
-            return {};
-    }
-}
-
-// DOM Selectors
 const DOMSelectors = {
     cardList: document.getElementById('container')
 };
 
-// Event listeners
+document.querySelector('.play').addEventListener('click', () => {
+  next();
+});
+
+document.querySelector('.gallery').addEventListener('click', () => {
+  characteroutcomes();
+});
+
 DOMSelectors.cardList.addEventListener('click', (event) => {
     if (event.target.classList.contains('yes')) {
         yess();
     } else if (event.target.classList.contains('no')) {
         nothing();
     }
-    document.querySelector('.play').addEventListener('click', () => {
-      next();
-  });
-  
-  document.querySelector('.gallery').addEventListener('click', () => {
-      characteroutcomes();
-  });
-
-  function next() {
-    if( now < cards.length){
-      charactercards();
-    } else{
-      DOMSelectors.cardList.innerHTML = "youve gone thru all the characters"
-    }
-  }
-
 });
+
+function next() {
+if( now < cards.length){
+  charactercards();
+} else{
+  DOMSelectors.cardList.innerHTML = "youve gone thru all the characters"
+}
+}
+
+function outcome(character) {
+  switch (character.name) {
+      case "Six":
+          return six[0];
+      case "37":
+          return thirtyseven[0];
+      case "A Knight":
+          return aknight[0];
+      case "APPLe":
+          return apple[0];
+      case "Lilya":
+          return lilya[0];
+      case "An An Lee":
+          return ananlee[0];
+      case "Baby Blue":
+          return babyblue[0];
+      case "Getian":
+          return getian[0];
+      case "Jiu Niangzi":
+          return jiu[0];
+      case "Click":
+          return click[0];
+      default:
+          return {};
+  }
+}
 
 init();
