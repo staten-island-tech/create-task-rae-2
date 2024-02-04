@@ -57,7 +57,7 @@ const getian = [
 const jiu = [
     {
         title9: "Congratulations! You've collected ENDING 9.",
-        image9: "https://www.prydwen.gg/static/265c3e6f037ee48528a26595516a3fe7/e6c36/fdgfdg.webp",
+        image9: "https://cdn11.bigcommerce.com/s-zv6qljn20r/images/stencil/1280x1280/products/689/3932/560801646__92783.1608777939.jpg?c=2",
         description9: "Jiu Niangzi... disappeared... to go drink?",
     },
 ];
